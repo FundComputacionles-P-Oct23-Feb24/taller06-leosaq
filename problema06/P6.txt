@@ -1,0 +1,28 @@
+1.  Inicio 
+2.  nombre, x(200)[{1-9},{a-z},{A-Z}, {BS}]
+3.  cadena, x(200)[{1-9},{a-z},{A-Z}, {BS}]
+4.  calificacion, x(200)[{1-9},{a-z},{A-Z}, {BS}]
+5.  estudiantes, x(200)[{1-9},{a-z},{A-Z}, {BS}]
+6.  contador, i[0, n]<-- 1
+7.  tipoCliente, i [0, n]
+8.  costoCompu, d[0, n]
+9.  descuento, d[0, 100]
+10. Mientras contador <= 7 Entonces 
+11.    <<Ingrese el nombre del cliente 
+12.    >>nombre
+13.    <<Ingrese el costo del Dispositivo 
+14.    >>costoCompu
+15.    <<Ingrese el tipo de cliente 
+16.    >>tipoCliente 
+17.    Si tipoCliente == 1
+18.       descuento <-- costoCompu * 0.10
+19.       costoCompu <-- costoCompu - descuento 
+20.       Si tipoCliente == 2
+21.          descuento <-- costoCompu * 0.20
+22.          costoCompu <-- costoCompu - descuento
+23.       Fin Si
+24.    Fin Si
+25.    << Cliente tipo+ "tipoCliente", compra computadora con precio $+"costoCompu"
+26.    contador <-- contador + 1
+27. Fin Mientras
+28. Fin 

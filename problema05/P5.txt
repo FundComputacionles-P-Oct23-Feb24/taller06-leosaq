@@ -1,0 +1,21 @@
+1.  Inicio 
+2.  nombre, x(200)[{1-9},{a-z},{A-Z}, {BS}]
+3.  cadena, x(200)[{1-9},{a-z},{A-Z}, {BS}]
+4.  calificacion, x(200)[{1-9},{a-z},{A-Z}, {BS}]
+5.  estudiantes, x(200)[{1-9},{a-z},{A-Z}, {BS}]
+6.  contador, i[0, n]<-- 1
+7.  promedio, d[0, n]
+8.  Mientras cadena <= 4 Entonces
+9.     <<Ingrese el nombre del estudiante 
+10.     >>nonbre
+11.    <<Ingrese el promedio del estudiante 
+12.    >>promedio 
+13.    If promedio >= 7 Entonces 
+14.       calificacion<-- "Aprobado"
+15.    De lo contrario 
+16.       calificacion<-- "Reprobado"
+17.    Fin Si
+18.    << Estudiante+ "nombre"con nota+ "calificacion"es+ "calificacion"
+19.    contador <-- contador + 1
+20.  Fin Mientras
+21. Fin 

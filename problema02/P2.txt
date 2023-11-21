@@ -1,0 +1,9 @@
+1.Inicio
+2. numerador, [0, n] <--5
+3. compilador, [0, n] <-- 10
+4. Mientras compilador <= 20 Entonces 
+5.    <<numerador / compilador
+6.    numerador <-- numerador + 5
+7.    compilador <-- compilador + 2
+8. Fin Mientras
+9.FIn 

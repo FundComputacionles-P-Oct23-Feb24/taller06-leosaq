@@ -1,0 +1,9 @@
+1.Inicio 
+2. contador, i[0, n] <-- 1
+3. compilador, i[0, n] <-- 10
+4. Mientras n <= 15 Entonces 
+5.    <<contador / compilador 
+6.    contador <-- contador + 1
+7.    compilador <-- compilador + 1
+8. Fin Mientras
+9.Fin 
